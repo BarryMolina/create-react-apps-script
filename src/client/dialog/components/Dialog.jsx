@@ -10,7 +10,7 @@ export const HelloWorld = () => {
 			</p>
 			<p>
 				Hello, World!
-				{/* <Button>Say Hello</Button> */}
+				<Button>Say Hello</Button>
 			</p>
 		</div>
 	)
