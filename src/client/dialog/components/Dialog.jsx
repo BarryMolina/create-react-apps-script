@@ -1,5 +1,6 @@
 import React from 'react';
 import { serverFunctions } from '../../utils/serverFunctions';
+import { Button } from '@mui/material';
 
 export const HelloWorld = () => {
 	return (
@@ -9,6 +10,7 @@ export const HelloWorld = () => {
 			</p>
 			<p>
 				Hello, World!
+				<Button>Say Hello</Button>
 			</p>
 		</div>
 	)
